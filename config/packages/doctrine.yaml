@@ -1,0 +1,16 @@
+doctrine:
+    dbal:
+        # configure these for your database server
+        dbname:               shop
+        host:                 localhost
+        port:                 3306
+        user:                 root
+        password:             Tygrysdwa2
+        url:                  mysql://root:Tygrysdwa2@127.0.0.1:3306/shop
+        driver: pdo_mysql
+        server_version: '5.7'
+        default_table_options:
+        charset: utf8
+       
+
+      
